@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #E1E1E6;
+
+    background-image: url("/assets/mountains-universe-1.png");
+    background-size: 100vw 100vh;
+
+    transition: background-image 1s;
+}
+
+nav {
+    display: flex;
+    padding: 4rem 7.2rem;
+    align-items: center;
+
+    animation: topdown 500ms;
+}
+
+nav > img {
+    margin-right: 4.3rem;
+}
+
+a + a {
+    margin-left: 5.4rem;
+}
+
+a {
+    font-size: 2.2rem;
+    color: #C4C4CC;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    font-weight: 700;
+}
+
+.home .homeLink {
+    color: white;
+    font-weight: 700;
+}
+
+.universe .universeLink {
+    color: white;
+    font-weight: 700;
+}
+
+.exploration .explorationLink {
+    color: white;
+    font-weight: 700;
+}
+
+.universe body {
+    background-image: url("/assets/mountains-universe-2.png");;
+}
+
+.exploration body {
+    background-image: url("/assets/mountains-universe-3.png");;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+.home #app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    margin-top: 17.2rem;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #FFF;
+
+    background: transparent;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+
+    padding: 1.2rem 3.2rem;
+}
+
+button:hover {
+    color: #02799D;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+button:active {
+    color: #FFF;
+    background: transparent;
+}
+
+html:not(.home) #app {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    width: 64.8rem;
+
+    margin-top: 6.3rem;
+    margin-left: 10.2rem;
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 160%;
+}
+
+h1, p, button {
+    animation: appear 3s forwards;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes topdown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
