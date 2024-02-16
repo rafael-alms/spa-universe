@@ -1,6 +1,6 @@
 # SPA Universe 🌌
 
-# 💻 Sobre o desafio
+## 💻 Sobre o desafio
 
 Desafio do curso Explorer da Rocketseat. Nesse desafio foi criada uma SPA (Single Page Application), utilizando o tema "universo".
 
@@ -14,6 +14,18 @@ Desafio do curso Explorer da Rocketseat. Nesse desafio foi criada uma SPA (Singl
 - Classes e muito mais.
 
 </aside>
+
+## Deploy da Aplicação :dash:
+
+> Link do deploy da aplicação, realizado pela Vercel: https://spa-universe-dusky.vercel.app/
+
+## Pré-requisitos
+
+:warning: [Node](https://nodejs.org/en/download/)
+
+:warning: [VS Code](https://code.visualstudio.com/download)
+
+:warning: [Git](https://git-scm.com/download/win)
 
 ## Como rodar a aplicação :arrow_forward:
 
